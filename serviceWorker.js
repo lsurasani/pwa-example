@@ -5,7 +5,6 @@ const staticAssets = [
 ];
 
 self.addEventListener('install', async event => { // triggered first time user hits the page
-    console.log(caches)
     const cache = await caches.open('static-cat'); // opens caches -- creates with this name if it doesn't exist 
     cache.addAll(staticAssets); // populate with stylesheet and js files
 });

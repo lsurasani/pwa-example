@@ -5,8 +5,6 @@ async function fetchCats() {
     container.innerHTML = `<img src=${json[0].url}>`
 }
 
-// fetchCats()
-
 window.addEventListener('load', async e => {
     await fetchCats();
 
