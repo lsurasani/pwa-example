@@ -3,7 +3,7 @@
   "short_name": "Cat Pics",
   "theme_color": "#a021f3",
   "background_color": "#2196f3",
-  "display": "browser",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "/pwa-example",
   "icons": [
